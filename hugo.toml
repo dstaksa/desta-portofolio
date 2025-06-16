@@ -194,7 +194,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # title name
 
-      name = "test"
+      name = "[some icon]"
 
       # you can add extra information before the name (HTML format is supported), such as icons
 
@@ -945,7 +945,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.page.library]
 
       [params.page.library.css]
-
+      geist = "https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      # openSans = "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" # Example for Open Sans
         # someCSS = "some.css"
 
         # located in "assets/"
