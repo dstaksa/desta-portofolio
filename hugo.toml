@@ -74,7 +74,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     weight = 1
 
-    identifier = "portofolio"
+    identifier = "porto"
 
     # you can add extra information before the name (HTML format is supported), such as icons
 
@@ -86,15 +86,47 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     name = "Portofolio"
 
-    url = "/posts/"
+    url = "/portofolio/"
 
     # title will be shown when you hover on this menu link
 
     title = "Portofolio Desta"
 
-  [[menu.main]]
+    [[menu.main]]
 
     weight = 2
+
+    identifier = "blog"
+
+    pre = ""
+
+    post = ""
+
+    name = "Blog"
+
+    url = "/blog/"
+
+    title = ""
+
+[[menu.main]]
+
+    weight = 3
+
+    identifier = "about"
+
+    pre = ""
+
+    post = ""
+
+    name = "About"
+
+    url = "/About/"
+
+    title = ""
+
+  [[menu.main]]
+
+    weight = 4
 
     identifier = "tags"
 
@@ -108,21 +140,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     title = ""
 
-  [[menu.main]]
-
-    weight = 3
-
-    identifier = "blog"
-
-    pre = ""
-
-    post = ""
-
-    name = "Blog"
-
-    url = "/categories/"
-
-    title = ""
+  
 
 
 
@@ -502,7 +520,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     Skype = ""
 
-    Whatsapp = "+62-881-0230-19082"
+    Whatsapp = "+62881023019082"
 
     Zhihu = ""
 
